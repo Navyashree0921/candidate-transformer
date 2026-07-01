@@ -24,23 +24,44 @@ A Node.js application that transforms structured (Recruiter CSV) and unstructure
 - pdf-parse
 - csv-parser
 
+
 ## Folder Structure
 
 ```
-src/
- parser/
- extractor/
- merger/
- normalizer/
- transformer/
- confidence/
- projector/
- validator/
-
-public/
-uploads/
-input/
-output/
+candidate-transformer/
+│
+├── input/
+│   ├── recruiter.csv
+│   └── resume.pdf
+│
+├── output/
+│   └── finalProfile.json
+│
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── uploads/
+│
+├── src/
+│   ├── app.js
+│   ├── parser/
+│   ├── extractor/
+│   ├── merger/
+│   ├── normalizer/
+│   ├── transformer/
+│   ├── confidence/
+│   ├── projector/
+│   ├── validator/
+│   └── utils/
+│
+├── config.json
+├── schema.json
+├── package.json
+├── package-lock.json
+├── README.md
+└── .gitignore
 ```
 
 ## Installation
