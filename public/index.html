@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Candidate Data Transformer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Candidate Data Transformer</h1>
+
+        <p>Transform structured and unstructured candidate data into a canonical profile.</p>
+
+        <h3>Recruiter CSV</h3>
+        <input type="file" id="csv" accept=".csv">
+
+        <h3>Resume PDF</h3>
+        <input type="file" id="resume" accept=".pdf">
+
+        <br><br>
+
+        <button id="uploadBtn"> Upload & Transform</button>
+
+        <button id="backBtn" style="display:none;">⬅ Back</button>
+
+        <pre id="output" style="display:none;"></pre>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

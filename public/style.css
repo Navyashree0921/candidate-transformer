@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background: #eef2f7;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2563eb;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+pre {
+    margin-top: 20px;
+    background: #1e293b;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    overflow: auto;
+}
